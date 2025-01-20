@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cataleg SYSTEM "cataleg.dtd">
+
+<cataleg>
+    <llista_actors>
+        <actor id="1">
+            <nom>Leonardo DiCaprio</nom>
+            <edat>49</edat>
+        </actor>
+        <actor id="2">
+            <nom>Meryl Streep</nom>
+            <edat>74</edat>
+        </actor>
+        <actor id="3">
+            <nom>Denzel Washington</nom>
+            <edat>69</edat>
+        </actor>
+    </llista_actors>
+
+    <llista_pelicules>
+        <pelicula id="1">
+            <titol idioma="en">Inception</titol>
+            <director>Christopher Nolan</director>
+            <any>2010</any>
+            <actors>
+                <actor_ref ref="1"/>
+            </actors>
+        </pelicula>
+        <pelicula id="2">
+            <titol idioma="en">The Devil Wears Prada</titol>
+            <director>David Frankel</director>
+            <any>2006</any>
+            <actors>
+                <actor_ref ref="2"/>
+            </actors>
+        </pelicula>
+        <pelicula id="3">  
+            <titol idioma="en">Training Day</titol>
+            <director>Antoine Fuqua</director>
+            <any>2001</any>
+            <actors>
+                <actor_ref ref="3"/>
+            </actors>
+        </pelicula>
+    </llista_pelicules>
+
+    <llista_recomenacions_pelicules>
+        <recomenacio ref="1">Un thriller de ciència-ficció brillant.</recomenacio>
+        <recomenacio ref="2">Una pel·lícula de moda i superació.</recomenacio>
+        <recomenacio ref="3">Un drama policial intens i captivador.</recomenacio>
+    </llista_recomenacions_pelicules>
+</cataleg>
